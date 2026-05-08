@@ -72,7 +72,7 @@ export default function HomeClient() {
             ].map((product, i) => (
               <div key={i} style={{ width: "100%", maxWidth: "360px", flexShrink: 0, background: "#fafafa", borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.04)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>
                 <div style={{ position: "relative", height: "260px", overflow: "hidden" }}>
-                  <Image src={product.img} alt={t(`products.${product.id}.title`)} fill sizes="(max-width: 768px) 100vw, 360px" className="transition-transform duration-500 group-hover:scale-105" style={{ objectFit: "cover" }} />
+                  <Image src={product.img} alt={t(`products.${product.id}.title`)} sizes="(max-width: 768px) 100vw, 360px" className="transition-transform duration-500 group-hover:scale-105" style={{ objectFit: "cover" }} />
                 </div>
                 <div style={{ padding: "32px" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: 800, color: "#16a34a", letterSpacing: "0.02em", marginBottom: "16px", lineHeight: 1.3 }}>{t(`products.${product.id}.title`)}</h3>

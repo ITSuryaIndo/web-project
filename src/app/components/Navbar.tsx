@@ -44,7 +44,7 @@ export default function Navbar() {
     <>
       <nav
         id="main-navbar"
-        className={`navbar fixed top-0 left-0 right-0 z-50 ${scrolled ? "navbar-scrolled" : ""
+        className={`navbar pt-32 top-0 left-0 right-0 z-50 ${scrolled ? "navbar-scrolled" : ""
           }`}
         style={{
           backgroundColor: scrolled ? undefined : "#ffffff",

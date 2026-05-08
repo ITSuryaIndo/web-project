@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Test from "../components/Test";
+import ContactUs from "../components/ContactUs";
 
 export const metadata: Metadata = {
   // Akan dirender sebagai: "Contact Us | Surya Indo International Indonesia"
@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function TestPage() {
-  return <Test/>;
+export default function ContactUsPage() {
+  return <ContactUs/>;
 }

@@ -116,7 +116,7 @@ const translations: Record<Language, Record<string, string>> = {
     "footer.Address": "Address :",
     "footer.shipmentTracking": "SHIPMENT TRACKING",
     "footer.privacyPolicy": "Email: hafiz@gmail.com",
-    "footer.termsOfTrade": "Whatsapp: +62-853-7174-3671",
+    "footer.termsOfTrade": "Telephone: +62-853-7174-3671",
 
     // Contact Page
     "contact.title": "ABOUT US",
@@ -183,6 +183,13 @@ const translations: Record<Language, Record<string, string>> = {
     "langDialog.subtitle": "Select your preferred language to continue",
     "langDialog.en": "English",
     "langDialog.id": "Bahasa Indonesia",
+
+    // Contact Us
+    "C1": "Telephone :+62 853 7174 3671",
+    "C2": "Office :",
+    "C3": "Email : hafiz@gmail.com",
+    "C4": "Open Hours : 8 AM - 5 PM",
+
   },
   id: {
     // Navbar
@@ -355,6 +362,11 @@ const translations: Record<Language, Record<string, string>> = {
     "langDialog.subtitle": "Pilih bahasa yang Anda inginkan untuk melanjutkan",
     "langDialog.en": "English",
     "langDialog.id": "Bahasa Indonesia",
+
+    // Contact Us
+    "C1": "Telepon :+62 853 7174 3671",
+    "C2": "Kantor Pusat :",
+    "C3": "Email : hafiz@gmail.com",
   },
 };
 

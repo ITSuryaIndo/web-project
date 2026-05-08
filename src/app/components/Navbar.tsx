@@ -286,7 +286,7 @@ export default function Navbar() {
             {t("nav.contact")}
           </Link>
           <Link
-            href="/about"
+            href="/kontak"
             onClick={() => setMobileOpen(false)}
             className="hover:scale-105 hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(10,31,10,0.4)] transition-all duration-300"
             style={{

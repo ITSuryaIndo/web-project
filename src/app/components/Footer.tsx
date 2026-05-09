@@ -124,7 +124,7 @@ export default function Footer() {
             Contact Us :
           </h3> 
 			<Link
-              href="mailto:hafiz@gmail.com"
+              href="mailto:suryaindointernational@gmail.com"
               style={{
                 fontSize: "0.9rem",
                 fontWeight: 600,
@@ -136,7 +136,7 @@ export default function Footer() {
               onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
               onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
             >
-              {t("footer.privacyPolicy")}
+              {t("footer.email")}
             </Link>
 			</div>
             <Link
@@ -152,10 +152,76 @@ export default function Footer() {
               onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
               onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
             >
-              {t("footer.termsOfTrade")}
+              {t("footer.phone")}
             </Link>
           </div>
         </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}> 
+			
+          <Link
+                  href="#"
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 600,
+                    letterSpacing: "0.08em",
+                    color: "#999",
+                    textDecoration: "none",
+                    transition: "color 0.2s",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
+                >
+                  {t("footer.shipmentTracking")}
+                </Link>
+                <Link
+                  href="#"
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 600,
+                    letterSpacing: "0.08em",
+                    color: "#999",
+                    textDecoration: "none",
+                    transition: "color 0.2s",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
+                >
+                  {t("footer.TermsOfTrade")}
+                </Link>
+
+                <Link
+                  href="#"
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 600,
+                    letterSpacing: "0.08em",
+                    color: "#999",
+                    textDecoration: "none",
+                    transition: "color 0.2s",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
+                >
+                  {t("footer.TermsAndConditions")}
+                </Link>
+                <Link
+                  href="#"
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 600,
+                    letterSpacing: "0.08em",
+                    color: "#999",
+                    textDecoration: "none",
+                    transition: "color 0.2s",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
+                >
+                  {t("footer.PrivacyPolicy")}
+                </Link>
+              </div>
+            </div>
 
         {/* Back to top */}
         <div className="flex md:justify-end">
@@ -178,7 +244,6 @@ export default function Footer() {
             ↑ TOP
           </button>
         </div>
-      </div>
 
       {/* Bottom bar */}
       <div

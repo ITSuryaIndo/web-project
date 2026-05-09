@@ -119,11 +119,11 @@ export default function HomeClient() {
             </div>
             <div style={{ flex: 1 }} className="grid grid-cols-2 gap-4">
               <div style={{ position: "relative", borderRadius: "12px", overflow: "hidden", gridColumn: "1 / -1", height: "200px" }}>
-                <Image src="/images/whole-betel-nut.jpeg" alt="Whole Betel Nut" fill style={{ objectFit: "cover" }} />
+                <Image src="/images/whole-betel-nut.jpeg" alt="Whole Betel Nut" fill sizes="(max-width: 768px) 100vw, 360px" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", bottom: "12px", left: "12px", fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.1em", color: "#fff", background: "rgba(0,0,0,0.6)", backdropFilter: "blur(4px)", padding: "6px 12px", borderRadius: "4px" }}>{t("products.1.title")}</div>
               </div>
               <div style={{ position: "relative", borderRadius: "12px", overflow: "hidden", gridColumn: "1 / -1", height: "200px" }}>
-                <Image src="/images/split-betel-nut.jpeg" alt="Split Betel Nut" fill style={{ objectFit: "cover" }} />
+                <Image src="/images/split-betel-nut.jpeg" alt="Split Betel Nut" fill sizes="(max-width: 768px) 100vw, 360px" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", bottom: "12px", left: "12px", fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.1em", color: "#fff", background: "rgba(0,0,0,0.6)", backdropFilter: "blur(4px)", padding: "6px 12px", borderRadius: "4px" }}>{t("products.2.title")}</div>
               </div>
             </div>

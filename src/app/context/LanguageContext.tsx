@@ -114,9 +114,12 @@ const translations: Record<Language, Record<string, string>> = {
     // Footer
     "footer.desc": "PRECISION TRADING & GLOBAL LOGISTICS.",
     "footer.Address": "Address :",
+    "footer.email": "Email: hafiz@gmail.com",
+    "footer.phone": "Telephone: +62-853-7174-3671",
     "footer.shipmentTracking": "SHIPMENT TRACKING",
-    "footer.privacyPolicy": "Email: hafiz@gmail.com",
-    "footer.termsOfTrade": "Telephone: +62-853-7174-3671",
+    "footer.TermsAndConditions": "TERMS AND CONDITIONS",
+    "footer.PrivacyPolicy": "PRIVACY POLICY",
+    "footer.TermsOfTrade": "TERMS OF TRADE",
 
     // Contact Page
     "contact.title": "ABOUT US",
@@ -187,8 +190,9 @@ const translations: Record<Language, Record<string, string>> = {
     // Contact Us
     "C1": "Telephone :+62 853 7174 3671",
     "C2": "Office :",
-    "C3": "Email : hafiz@gmail.com",
+    "C3": "Email : suryaindointernational@gmail.com",
     "C4": "Open Hours : 8 AM - 5 PM",
+    "C5": "Contact Us",
 
   },
   id: {
@@ -293,9 +297,12 @@ const translations: Record<Language, Record<string, string>> = {
     // Footer
     "footer.desc": "PERDAGANGAN PRESISI & LOGISTIK GLOBAL.",
     "footer.Address": "Lokasi :",
+    "footer.email": "email: hafiz@gmail.com",
+    "footer.phone": "Telepon: +62-853-7174-3671",
     "footer.shipmentTracking": "PELACAKAN PENGIRIMAN",
-    "footer.privacyPolicy": "email: hafiz@gmail.com",
-    "footer.termsOfTrade": "WhatsApp: +6285371743671",
+    "footer.TermsAndConditions": "SYARAT DAN KETENTUAN",
+    "footer.PrivacyPolicy": "KEBIJAKAN PRIVASI",
+    "footer.TermsOfTrade": "SYARAT PERDAGANGAN",
 
     // Contact Page
     "contact.title": "TENTANG KAMI",
@@ -365,8 +372,10 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Contact Us
     "C1": "Telepon :+62 853 7174 3671",
-    "C2": "Kantor Pusat :",
-    "C3": "Email : hafiz@gmail.com",
+    "C2": "Kantor :",
+    "C3": "Email : suryaindointernational@gmail.com",
+    "C4": "Jam Operasional : 8 AM - 5 PM",
+    "C5": "Hubungi Kami",
   },
 };
 

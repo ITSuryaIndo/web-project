@@ -9,7 +9,7 @@ export default function HomeClient() {
     <section className="contact-section min-h-screen bg-slate-50 flex items-start md:items-center pt-16 sm:pt-24 md:pt-32 pb-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-5 items-center">
-          <div className="rounded-3xl overflow-hidden flex justify-center hover:border-blue-500">
+          <div className="rounded-3xl overflow-hidden flex justify-center ">
             <img
              src="/images/asd.png"
              alt="World map"
@@ -20,7 +20,7 @@ export default function HomeClient() {
             <div className="space-y-6">
               <div className="text-center">
                 <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-black">
-                    HUBUNGI KAMI
+                  {t("C5")}
                 </h2>
               </div>  
               <div className="flex items-center gap-3 sm:gap-4">

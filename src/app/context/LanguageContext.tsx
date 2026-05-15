@@ -194,6 +194,34 @@ const translations: Record<Language, Record<string, string>> = {
     "C4": "Open Hours : 8 AM - 5 PM",
     "C5": "Contact Us",
 
+    // T&C
+    "tc.title": "Terms and Conditions",
+    "tc.subtitle": "Please read our terms and conditions carefully before using our services.",
+    "tc.section1Title": "1. Introduction",
+    "tc.updateDate": "Last Updated: June 2024",
+    "tc.section1Content": "You agree to use this website only for lawful purposes. You must not Use the website in any way that causes damage or disruption. Attempt unauthorized access to any part of the system. Distribute harmful or malicious software.",
+    "tc.section2Title": "2. Intellectual Property",
+    "tc.section2Content": "All intellectual property rights in the content of this website are owned by PT. SURYA INDO INTERNATIONAL INDONESIA or its licensors. You may not reproduce, distribute, or create derivative works from any content on this website without our express written permission.",
+    "tc.section3Title": "3. Limitation of Liability",
+    "tc.section3Content": "PT. SURYA INDO INTERNATIONAL INDONESIA shall not be liable for any indirect, incidental, special, consequential or punitive damages arising out of your access to or use of this website.",
+    "tc.section4Title": "4. Governing Law",
+    "tc.section4Content": "These terms and conditions are governed by and construed in accordance with the laws of Indonesia.",
+    "tc.section5Title": "5. Changes to Terms",
+    "tc.section5Content": "We reserve the right to modify these terms and conditions at any time. Your continued use of the website after any such changes constitutes your acceptance of the new terms.",
+  
+    // Privacy Policy
+    "pp.title": "Privacy Policy",
+    "pp.subtitle": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.",
+    "pp.section1Title": "1. Information We Collect",
+    "pp.section1Content": "We may collect personal information such as your name, email address, and phone number when you interact with our website or services.",
+    "pp.section2Title": "2. How We Use Your Information",
+    "pp.section2Content": "We use your information to provide and improve our services, communicate with you, and comply with legal obligations.",
+    "pp.section3Title": "3. Data Security",
+    "pp.section3Content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.",
+    "pp.section4Title": "4. Your Rights",
+    "pp.section4Content": "You have the right to access, correct, or delete your personal information. You can also object to or restrict certain processing of your data.",
+    "pp.section5Title": "5. Changes to This Policy",
+    "pp.section5Content": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.",
   },
   id: {
     // Navbar
@@ -376,6 +404,35 @@ const translations: Record<Language, Record<string, string>> = {
     "C3": "Email : suryaindointernational@gmail.com",
     "C4": "Jam Operasional : 8 AM - 5 PM",
     "C5": "Hubungi Kami",
+
+    // T&C
+    "tc.title": "Syarat dan Ketentuan",
+    "tc.subtitle": "Harap baca syarat dan ketentuan kami dengan cermat sebelum menggunakan layanan kami.",
+    "tc.section1Title": "1. Pendahuluan",
+    "tc.updateDate": "Terakhir Diperbarui: Juni 2024",
+    "tc.section1Content": "Anda setuju untuk menggunakan situs web ini hanya untuk tujuan yang sah. Anda tidak boleh Menggunakan situs web dengan cara yang menyebabkan kerusakan atau gangguan. Mencoba mengakses bagian mana pun dari sistem secara tidak sah.Mendistribusikan perangkat lunak berbahaya atau jahat.",
+    "tc.section2Title": "2. Hak Kekayaan Intelektual",
+    "tc.section2Content": "Semua hak kekayaan intelektual dalam konten situs web ini dimiliki oleh PT. SURYA INDO INTERNATIONAL INDONESIA atau pemberi lisensinya. Anda tidak boleh mereproduksi, mendistribusikan, atau membuat karya turunan dari konten apa pun di situs web ini tanpa izin tertulis dari kami.",
+    "tc.section3Title": "3. Pembatasan Tanggung Jawab",
+    "tc.section3Content": "PT. SURYA INDO INTERNATIONAL INDONESIA tidak akan bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial atau hukuman yang timbul dari akses atau penggunaan Anda terhadap situs web ini.",
+    "tc.section4Title": "4. Hukum yang Berlaku",
+    "tc.section4Content": "Syarat dan ketentuan ini diatur dan ditafsirkan sesuai dengan hukum Indonesia.",
+    "tc.section5Title": "5. Perubahan pada Syarat",
+    "tc.section5Content": "Kami berhak untuk memodifikasi syarat dan ketentuan ini kapan saja. Penggunaan Anda yang terus menerus terhadap situs web setelah perubahan apa pun dianggap sebagai penerimaan Anda terhadap syarat dan ketentuan yang baru.",
+  
+    // Privacy Policy
+    "pp.title": "Kebijakan Privasi",
+    "pp.subtitle": "Privasi Anda penting bagi kami. Kebijakan ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda.",
+    "pp.section1Title": "1. Informasi yang Kami Kumpulkan",
+    "pp.section1Content": "Kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, dan nomor telepon Anda ketika Anda berinteraksi dengan situs web atau layanan kami.",
+    "pp.section2Title": "2. Bagaimana Kami Menggunakan Informasi Anda",
+    "pp.section2Content": "Kami menggunakan informasi Anda untuk menyediakan dan meningkatkan layanan kami, berkomunikasi dengan Anda, dan mematuhi kewajiban hukum.",
+    "pp.section3Title": "3. Keamanan Data",
+    "pp.section3Content": "Kami menerapkan langkah-langkah teknis dan organisasi yang tepat untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah.",
+    "pp.section4Title": "4. Hak Anda",
+    "pp.section4Content": "Anda memiliki hak untuk mengakses, mengoreksi, atau menghapus informasi pribadi Anda. Anda juga dapat menolak atau membatasi pemrosesan tertentu dari data Anda.",
+    "pp.section5Title": "5. Perubahan pada Kebijakan Ini",
+    "pp.section5Content": "Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting kebijakan baru di halaman ini.",
   },
 };
 

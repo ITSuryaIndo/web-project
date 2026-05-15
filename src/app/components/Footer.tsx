@@ -174,24 +174,9 @@ export default function Footer() {
                 >
                   {t("footer.shipmentTracking")}
                 </Link>
-                <Link
-                  href="#"
-                  style={{
-                    fontSize: "0.7rem",
-                    fontWeight: 600,
-                    letterSpacing: "0.08em",
-                    color: "#999",
-                    textDecoration: "none",
-                    transition: "color 0.2s",
-                  }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = "#d4a437")}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
-                >
-                  {t("footer.TermsOfTrade")}
-                </Link>
 
                 <Link
-                  href="#"
+                  href="/tnc"
                   style={{
                     fontSize: "0.7rem",
                     fontWeight: 600,
@@ -206,7 +191,7 @@ export default function Footer() {
                   {t("footer.TermsAndConditions")}
                 </Link>
                 <Link
-                  href="#"
+                  href="/pp"
                   style={{
                     fontSize: "0.7rem",
                     fontWeight: 600,
